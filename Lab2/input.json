@@ -1,0 +1,14 @@
+[
+    {"action": "create_port", "id": 0, "latitude": 46.4999996, "longitude": 30.730773},
+    {"action": "create_port", "id": 1, "latitude": 44.6, "longitude": 33.5},
+    {"action": "create_port", "id": 3, "latitude": 25.7759419, "longitude":  -80.1896693},
+    {"action": "create_ship", "id": 6, "port": 0, "weight_capacity": 5000, "max_containers": 10, "max_heavy": 5, "max_refrigerated": 2, "max_liquid": 3, "fuel_per_km": 0.1},
+    {"action": "create_container", "id":  234, "weight": 450},
+    {"action": "create_container", "id":  503, "weight": 2000, "type": "R"},
+    {"action": "load_container", "ship_id":  6, "container_id":  234},
+    {"action": "load_container", "ship_id":  6, "container_id":  503},
+    {"action": "ship_sail", "ship_id": 6, "destination_port_id": 1},
+    {"action":  "refuel", "ship_id": 6, "fuel": 100000.0},
+    {"action": "ship_sail", "ship_id": 6, "destination_port_id": 1},
+    {"action":  "unload_container", "ship_id": 6, "container_id":  234}
+]

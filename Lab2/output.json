@@ -1,0 +1,42 @@
+{
+    "Port 0": {
+        "lat": 46.5,
+        "lon": 30.73,
+        "basic_container": [],
+        "heavy_container": [],
+        "refrigerated_container": [],
+        "liquid_container": [],
+        "ships": []
+    },
+    "Port 1": {
+        "lat": 44.6,
+        "lon": 33.5,
+        "basic_container": [
+            234
+        ],
+        "heavy_container": [],
+        "refrigerated_container": [],
+        "liquid_container": [],
+        "ships": [
+            {
+                "id": 6,
+                "fuel_left": 66389.36,
+                "basic_container": [],
+                "heavy_container": [],
+                "refrigerated_container": [
+                    503
+                ],
+                "liquid_container": []
+            }
+        ]
+    },
+    "Port 3": {
+        "lat": 25.78,
+        "lon": -80.19,
+        "basic_container": [],
+        "heavy_container": [],
+        "refrigerated_container": [],
+        "liquid_container": [],
+        "ships": []
+    }
+}
